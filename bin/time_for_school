@@ -28,15 +28,14 @@ penny_learnsmore = avi.teach
 steve.learn(some_knowledge)
 steve.learn(more_knowledge)
 
+# jim.learn(some_knowledge)
+
 penny.learn(penny_knowledge)
 penny.learn(penny_learnsmore)
 
-# jim.learn(some_knowledge)
-
-
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-# puts "Steve just learned this from Avi too --'#{steve.knowledge[1]}'"
-
+puts "Steve just learned this from Avi too --'#{steve.knowledge[1]}'"
+puts
 puts "Steve knows #{ steve.knowledge.each { |item| puts "#{item}" } }"
 puts "Penny knows #{ penny.knowledge.each { |item| puts "#{item}" } }"
 puts "Thanks, Avi!"
