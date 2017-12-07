@@ -22,6 +22,8 @@ penny.last_name = "Proud"
 
 some_knowledge = avi.teach
 more_knowledge = avi.teach
+penny_knowledge = avi.teach
+penny_learnsmore = avi.teach
 
 steve.learn(some_knowledge)
 # jim.learn(some_knowledge)
